@@ -2,7 +2,7 @@ import math
 class Triangulo:
     def __init__(self):
         self.nombre = "Triangulo"
-        print(f"=" * 10 + self.nombre + "=" * 10)
+        print("=" * 10 + self.nombre + "=" * 10)
         self.base = int(input("Ingrese la base del triangulo: "))
         self.lado1 = int(input("Ingrese el lado 1 del triangulo: "))
         self.lado2 = int(input("Ingrese el lado 2 del triangulo: "))
@@ -17,7 +17,7 @@ class Triangulo:
 class Circulo:
     def __init__(self):
         self.nombre = "Circulo"
-        print(f"=" * 10 + self.nombre + "=" * 10)
+        print("=" * 10 + self.nombre + "=" * 10)
         self.radio = int(input("Ingrese el radio del circulo: "))
     def area(self):
         area = math.pi * (self.radio ** 2)
@@ -29,7 +29,7 @@ class Circulo:
 class Rectangulo:
     def __init__(self):
         self.nombre = "Rectangulo"
-        print(f"=" * 10 + self.nombre + "=" * 10)
+        print("=" * 10 + self.nombre + "=" * 10)
         self.base = int(input("Ingrese la base del rectangulo: "))
         self.altura = int(input("Ingrese la altura del rectangulo: "))
     def area(self):
